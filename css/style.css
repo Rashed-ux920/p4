@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px 40px;
+    background:  hsl(193, 100%, 96%);
+}
+.bt1{
+    /* border: 1px solid #000; */
+    padding-left: 50px;
+    padding-right: 50px;
+     padding-top: 10px;
+     padding-bottom: 10px; 
+    border-radius: 20px;
+    background: #fff;
+
+}
+.bt1 a{
+    font-weight: 400;
+    text-transform: capitalize;
+    color: black;
+}
+.main{
+    background:  hsl(193, 100%, 96%);
+}
+.contaner{
+    display:flex;
+    align-items: center;
+    padding: 30px;
+}
+.right{
+    margin-left: 10px;
+}
+.text-big{
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+}
+.letter{
+    color: hsl(208, 11%, 55%);
+    margin-bottom: 2em;
+}
+.center{
+    display: flex;
+
+}
+.center a{
+    margin-left: 20px;
+    background: hsl(322, 100%, 66%) ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 700;
+    font-size: large;
+    color: #fff;
+    border-radius: 30px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  20px 200px;
+
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+.card1{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-transform: capitalize;
+    position: absolute;
+}
+.card3{
+    bottom: 11em;
+    left: 37em;
+    position: relative;
+    padding: 50px 50px 50px 50px;
+    background: #fffafa;
+    border-radius: 10px;
+}
+.left{
+    margin-left: 10px;
+}
+.right img{
+    width: 300px;
+}
+.wav{
+    color: #fff;
+    background: hsl(192, 100%, 9%);
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.foter div{
+    display: flex;
+    margin-left: 20px;
+}
+.foter div i,.foter div p{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.foter div a{
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+    text-decoration:none ;
+    
+
+}
+.foter div a:hover{
+    text-decoration: underline;
+}
+.icon{
+    margin-right: 70px;
+    margin-top: 10px;
+    font-size: 1.6em;
+}
+.icon i:hover{
+    color: hsl(322, 100%, 66%);
+}
+.qw{
+    margin-left: 60px;
+}
